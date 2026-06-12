@@ -1,0 +1,33 @@
+Pasos Juego Arcade Nave
+
+#Generar el entorno del Proyecto
+python -m venv venv
+
+#Activar el entorno
+.\venv\Scripts\activate
+
+#Instalar libreria pygame
+pip install pygame
+
+
+Proyecto con la carpeta src
+
+tu_proyecto/
+│
+├── venv/                 <-- Tus librerías (creada en el Paso 1)
+└── src/                  <-- Tu código fuente
+    ├── interfaces.py
+    ├── controladores.py
+    ├── nave.py
+    ├── main.py
+    ├── mi_nave.png       <-- IMPORTANTE: Tus imágenes deben estar aquí junto a main.py
+    └── alien_malo.png
+
+# Ejecutar app
+cd src
+
+python main.py
+
+#Librerias de requerimiento disponibles
+pip freeze > requirements.txt
+
