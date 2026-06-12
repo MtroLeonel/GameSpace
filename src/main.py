@@ -19,7 +19,7 @@ class JuegoArcadeNave:
         self.ancho = 800
         self.alto = 600
         self.pantalla = pygame.display.set_mode((self.ancho, self.alto))
-        pygame.display.set_caption("Arcade Nave")
+        pygame.display.set_caption("Arcade Nave by Ninjaxleo")
         self.reloj = pygame.time.Clock()
 
         self.base_dir = os.path.dirname(__file__)
