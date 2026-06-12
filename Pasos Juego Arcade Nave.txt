@@ -41,3 +41,14 @@ python main.py
 #Librerias de requerimiento disponibles
 pip freeze > requirements.txt
 
+
+Pasos a recorer con git
+git log --oneline
+
+git checkout 3f1d8a4
+
+python main.py
+
+git checkout main
+
+git checkout master
